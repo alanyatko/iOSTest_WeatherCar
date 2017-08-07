@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  iOSTest_WeatherCar
+
+  Created by Андрей Дорош on 04.08.17.
+  Copyright © 2017 Андрей Дорош. All rights reserved.
+*/
+
+"Car list" = "Car list";
+"Car" = "Car:";
+"Price" = "Price:";
+
+"Back" = "Back";
+"Title" = "Title";
+"Add car" = "Add car";
+"Engine" = "Engine:";
+"Transmission" = "Transmission:";
+"Condition" = "Condition:";
+"Description" = "Description:";
+
+"1.5i.e" = "1.5i.e";
+"2.0i.e" = "2.0i.e";
+"2.5i.e" = "2.5i.e";
+"3.0i.e" = "3.0i.e";
+"2.0d.e" = "2.0d.e";
+"2.5d.e" = "2.5d.e";
+
+"Manual" = "Manual";
+"Automate" = "Automate";
+"Tiptronic" = "Tiptronic";
+
+"Bad" = "Bad";
+"Good" = "Good";
+"Excellent" = "Excellent";
+
+"Take Photo" = "Take Photo";
+"Photo Library" = "Photo Library";
+"Cancel" = "Cancel";

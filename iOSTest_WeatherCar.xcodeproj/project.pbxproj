@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8820404A1F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 882040481F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodeld */; };
+		8842ED661F33D784008AB3D6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8842ED681F33D784008AB3D6 /* Localizable.strings */; };
+		8842ED6D1F346928008AB3D6 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED6C1F346928008AB3D6 /* String+Helper.swift */; };
+		8842ED6F1F348685008AB3D6 /* AddCarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED6E1F348685008AB3D6 /* AddCarTVC.swift */; };
+		8842ED711F34AB9C008AB3D6 /* DSCameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED701F34AB9C008AB3D6 /* DSCameraHandler.swift */; };
+		8842ED731F34AC74008AB3D6 /* CarPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED721F34AC74008AB3D6 /* CarPhotoCell.swift */; };
+		8842ED751F35E30C008AB3D6 /* CarDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED741F35E30C008AB3D6 /* CarDetailTVC.swift */; };
+		8842ED8A1F3644F1008AB3D6 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED891F3644F1008AB3D6 /* WeatherVC.swift */; };
+		8842ED901F364C0A008AB3D6 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8842ED8F1F364C0A008AB3D6 /* UIImage+Helper.swift */; };
+		8866AFC11F3790FB0020D5E6 /* WeatherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8866AFC01F3790FB0020D5E6 /* WeatherVC.xib */; };
+		8866AFC61F37A4530020D5E6 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8866AFC51F37A4530020D5E6 /* KeyPath.swift */; };
+		88DC52A11F307A7D00E416EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DC529F1F307A7D00E416EF /* Main.storyboard */; };
+		88DC52A61F307A7D00E416EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DC52A51F307A7D00E416EF /* Assets.xcassets */; };
+		88DC52A91F307A7D00E416EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DC52A71F307A7D00E416EF /* LaunchScreen.storyboard */; };
+		88DC52B21F3087F300E416EF /* CarListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC52B11F3087F300E416EF /* CarListVC.swift */; };
+		88DC52B81F30AE8F00E416EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC52B71F30AE8F00E416EF /* AppDelegate.swift */; };
+		88DC52BC1F30AFD200E416EF /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC52BB1F30AFD200E416EF /* CarCell.swift */; };
+		B42055A175B95BEF23C1C04D /* Pods_iOSTest_WeatherCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3091D037F46F131E508B9E47 /* Pods_iOSTest_WeatherCar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3091D037F46F131E508B9E47 /* Pods_iOSTest_WeatherCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTest_WeatherCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F15965F775CBE97BAB360A8 /* Pods-iOSTest_WeatherCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest_WeatherCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTest_WeatherCar/Pods-iOSTest_WeatherCar.debug.xcconfig"; sourceTree = "<group>"; };
+		882040491F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSTest_WeatherCar.xcdatamodel; sourceTree = "<group>"; };
+		8842ED671F33D784008AB3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8842ED691F33D786008AB3D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8842ED6A1F33D787008AB3D6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8842ED6C1F346928008AB3D6 /* String+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		8842ED6E1F348685008AB3D6 /* AddCarTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarTVC.swift; sourceTree = "<group>"; };
+		8842ED701F34AB9C008AB3D6 /* DSCameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSCameraHandler.swift; sourceTree = "<group>"; };
+		8842ED721F34AC74008AB3D6 /* CarPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPhotoCell.swift; sourceTree = "<group>"; };
+		8842ED741F35E30C008AB3D6 /* CarDetailTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailTVC.swift; sourceTree = "<group>"; };
+		8842ED891F3644F1008AB3D6 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		8842ED8F1F364C0A008AB3D6 /* UIImage+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		8866AFC01F3790FB0020D5E6 /* WeatherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherVC.xib; sourceTree = "<group>"; };
+		8866AFC51F37A4530020D5E6 /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
+		88DC52981F307A7D00E416EF /* iOSTest_WeatherCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTest_WeatherCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DC52A01F307A7D00E416EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88DC52A51F307A7D00E416EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88DC52A81F307A7D00E416EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88DC52AA1F307A7D00E416EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DC52B11F3087F300E416EF /* CarListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListVC.swift; sourceTree = "<group>"; };
+		88DC52B71F30AE8F00E416EF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88DC52BB1F30AFD200E416EF /* CarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		ED08888BA15886BDC32F93B7 /* Pods-iOSTest_WeatherCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest_WeatherCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTest_WeatherCar/Pods-iOSTest_WeatherCar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88DC52951F307A7D00E416EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42055A175B95BEF23C1C04D /* Pods_iOSTest_WeatherCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D04EBCC654049C5B402014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3091D037F46F131E508B9E47 /* Pods_iOSTest_WeatherCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09254D746F1056EFE4B76645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F15965F775CBE97BAB360A8 /* Pods-iOSTest_WeatherCar.debug.xcconfig */,
+				ED08888BA15886BDC32F93B7 /* Pods-iOSTest_WeatherCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8842ED6B1F34681C008AB3D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8866AFC51F37A4530020D5E6 /* KeyPath.swift */,
+				8842ED6C1F346928008AB3D6 /* String+Helper.swift */,
+				8842ED701F34AB9C008AB3D6 /* DSCameraHandler.swift */,
+				8842ED8F1F364C0A008AB3D6 /* UIImage+Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8842ED761F36144A008AB3D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8866AFC21F37988B0020D5E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		88DC528F1F307A7D00E416EF = {
+			isa = PBXGroup;
+			children = (
+				88DC529A1F307A7D00E416EF /* iOSTest_WeatherCar */,
+				88DC52991F307A7D00E416EF /* Products */,
+				09254D746F1056EFE4B76645 /* Pods */,
+				04D04EBCC654049C5B402014 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88DC52991F307A7D00E416EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DC52981F307A7D00E416EF /* iOSTest_WeatherCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DC529A1F307A7D00E416EF /* iOSTest_WeatherCar */ = {
+			isa = PBXGroup;
+			children = (
+				882040481F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodeld */,
+				8866AFC21F37988B0020D5E6 /* Tools */,
+				8842ED6B1F34681C008AB3D6 /* Helpers */,
+				8842ED761F36144A008AB3D6 /* Models */,
+				88DC52B91F30AF9D00E416EF /* Views */,
+				88DC52B01F3087C900E416EF /* ViewControllers */,
+				88DC529F1F307A7D00E416EF /* Main.storyboard */,
+				88DC52A51F307A7D00E416EF /* Assets.xcassets */,
+				88DC52A71F307A7D00E416EF /* LaunchScreen.storyboard */,
+				88DC52AA1F307A7D00E416EF /* Info.plist */,
+				8842ED681F33D784008AB3D6 /* Localizable.strings */,
+			);
+			path = iOSTest_WeatherCar;
+			sourceTree = "<group>";
+		};
+		88DC52B01F3087C900E416EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88DC52B71F30AE8F00E416EF /* AppDelegate.swift */,
+				88DC52B11F3087F300E416EF /* CarListVC.swift */,
+				8842ED741F35E30C008AB3D6 /* CarDetailTVC.swift */,
+				8842ED6E1F348685008AB3D6 /* AddCarTVC.swift */,
+				8842ED891F3644F1008AB3D6 /* WeatherVC.swift */,
+				8866AFC01F3790FB0020D5E6 /* WeatherVC.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88DC52B91F30AF9D00E416EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88DC52BB1F30AFD200E416EF /* CarCell.swift */,
+				8842ED721F34AC74008AB3D6 /* CarPhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88DC52971F307A7D00E416EF /* iOSTest_WeatherCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DC52AD1F307A7D00E416EF /* Build configuration list for PBXNativeTarget "iOSTest_WeatherCar" */;
+			buildPhases = (
+				B4AE166E0CCAC4FBA49BABC9 /* [CP] Check Pods Manifest.lock */,
+				88DC52941F307A7D00E416EF /* Sources */,
+				88DC52951F307A7D00E416EF /* Frameworks */,
+				88DC52961F307A7D00E416EF /* Resources */,
+				C1A448BC82D9F1E9BA9B3497 /* [CP] Embed Pods Frameworks */,
+				0AC19C93BD5B6BAE03415242 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTest_WeatherCar;
+			productName = iOSTest_Skywell;
+			productReference = 88DC52981F307A7D00E416EF /* iOSTest_WeatherCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88DC52901F307A7D00E416EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Андрей Дорош";
+				TargetAttributes = {
+					88DC52971F307A7D00E416EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FVLL54ZYFL;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 88DC52931F307A7D00E416EF /* Build configuration list for PBXProject "iOSTest_WeatherCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 88DC528F1F307A7D00E416EF;
+			productRefGroup = 88DC52991F307A7D00E416EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88DC52971F307A7D00E416EF /* iOSTest_WeatherCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88DC52961F307A7D00E416EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DC52A91F307A7D00E416EF /* LaunchScreen.storyboard in Resources */,
+				8842ED661F33D784008AB3D6 /* Localizable.strings in Resources */,
+				8866AFC11F3790FB0020D5E6 /* WeatherVC.xib in Resources */,
+				88DC52A61F307A7D00E416EF /* Assets.xcassets in Resources */,
+				88DC52A11F307A7D00E416EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC19C93BD5B6BAE03415242 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTest_WeatherCar/Pods-iOSTest_WeatherCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AE166E0CCAC4FBA49BABC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A448BC82D9F1E9BA9B3497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTest_WeatherCar/Pods-iOSTest_WeatherCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DC52941F307A7D00E416EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8842ED6D1F346928008AB3D6 /* String+Helper.swift in Sources */,
+				8842ED751F35E30C008AB3D6 /* CarDetailTVC.swift in Sources */,
+				88DC52BC1F30AFD200E416EF /* CarCell.swift in Sources */,
+				8820404A1F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodeld in Sources */,
+				8842ED711F34AB9C008AB3D6 /* DSCameraHandler.swift in Sources */,
+				8842ED901F364C0A008AB3D6 /* UIImage+Helper.swift in Sources */,
+				88DC52B21F3087F300E416EF /* CarListVC.swift in Sources */,
+				8842ED6F1F348685008AB3D6 /* AddCarTVC.swift in Sources */,
+				88DC52B81F30AE8F00E416EF /* AppDelegate.swift in Sources */,
+				8842ED8A1F3644F1008AB3D6 /* WeatherVC.swift in Sources */,
+				8866AFC61F37A4530020D5E6 /* KeyPath.swift in Sources */,
+				8842ED731F34AC74008AB3D6 /* CarPhotoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8842ED681F33D784008AB3D6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8842ED671F33D784008AB3D6 /* Base */,
+				8842ED691F33D786008AB3D6 /* en */,
+				8842ED6A1F33D787008AB3D6 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		88DC529F1F307A7D00E416EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DC52A01F307A7D00E416EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88DC52A71F307A7D00E416EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DC52A81F307A7D00E416EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88DC52AB1F307A7D00E416EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88DC52AC1F307A7D00E416EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88DC52AE1F307A7D00E416EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F15965F775CBE97BAB360A8 /* Pods-iOSTest_WeatherCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FVLL54ZYFL;
+				INFOPLIST_FILE = iOSTest_WeatherCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alanyatko.iOSTest-WeatherCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "043a425a-49d8-41cb-b314-89ac5e573fbf";
+				PROVISIONING_PROFILE_SPECIFIER = TestProject_Dev;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		88DC52AF1F307A7D00E416EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED08888BA15886BDC32F93B7 /* Pods-iOSTest_WeatherCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iOSTest_WeatherCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alanyatko.iOSTest-WeatherCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88DC52931F307A7D00E416EF /* Build configuration list for PBXProject "iOSTest_WeatherCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DC52AB1F307A7D00E416EF /* Debug */,
+				88DC52AC1F307A7D00E416EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DC52AD1F307A7D00E416EF /* Build configuration list for PBXNativeTarget "iOSTest_WeatherCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DC52AE1F307A7D00E416EF /* Debug */,
+				88DC52AF1F307A7D00E416EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		882040481F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				882040491F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodel */,
+			);
+			currentVersion = 882040491F385B8F00B34750 /* iOSTest_WeatherCar.xcdatamodel */;
+			path = iOSTest_WeatherCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88DC52901F307A7D00E416EF /* Project object */;
+}

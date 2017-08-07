@@ -1,0 +1,27 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Section-3"; ObjectID = "25d-Po-xVK"; */
+"25d-Po-xVK.headerTitle" = "Section-3";
+
+/* Class = "UITableViewSection"; headerTitle = "Section-4"; ObjectID = "6V6-dW-g9N"; */
+"6V6-dW-g9N.headerTitle" = "Section-4";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AlF-0A-Ut5"; */
+"AlF-0A-Ut5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "H1X-uL-vVS"; */
+"H1X-uL-vVS.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kC7-td-YtH"; */
+"kC7-td-YtH.normalTitle" = "Button";
+
+/* Class = "UITableViewSection"; headerTitle = "Section-1"; ObjectID = "oJT-wL-DyP"; */
+"oJT-wL-DyP.headerTitle" = "Section-1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pgb-q9-yWm"; */
+"pgb-q9-yWm.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet"; ObjectID = "rKN-n1-72W"; */
+"rKN-n1-72W.text" = "Lorem ipsum dolor sit er elit lamet";
+
+/* Class = "UITableViewSection"; headerTitle = "Section-2"; ObjectID = "vhR-kv-llc"; */
+"vhR-kv-llc.headerTitle" = "Section-2";

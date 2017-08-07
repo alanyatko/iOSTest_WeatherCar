@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  iOSTest_WeatherCar
+
+  Created by Андрей Дорош on 04.08.17.
+  Copyright © 2017 Андрей Дорош. All rights reserved.
+*/
+
+"Car list" = "Список авто";
+"Car" = "Авто:";
+"Price" = "Цена:";
+
+"Back" = "Назад";
+"Title" = "Заголовок";
+"Add car" = "Добавить авто";
+"Engine" = "Двигатель:";
+"Transmission" = "Коробка передач:";
+"Condition" = "Состояние:";
+"Description" = "Описание:";
+
+"1.5i.e" = "1.5 бензин";
+"2.0i.e" = "2.0 бензин";
+"2.5i.e" = "2.5 бензин";
+"3.0i.e" = "3.0 бензин";
+"2.0d.e" = "2.0 дизель";
+"2.5d.e" = "2.5 дизель";
+
+"Manual" = "Ручная";
+"Automate" = "Автомат";
+"Tiptronic" = "Типтроник";
+
+"Bad" = "Плохое";
+"Good" = "Хорошее";
+"Excellent" = "Отличное";
+
+"Take Photo" = "Сделать фото";
+"Photo Library" = "Использовать из библиотеки";
+"Cancel" = "Отмена";
